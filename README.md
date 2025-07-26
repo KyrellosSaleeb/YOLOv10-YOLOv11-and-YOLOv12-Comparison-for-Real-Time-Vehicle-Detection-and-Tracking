@@ -28,11 +28,11 @@ Install all required packages:
 
 ```bash
 pip install torch torchvision ultralytics opencv-python pandas matplotlib seaborn ipywidgets
+```
 
+## 📁 Folder Structure
 
-📁 Folder Structure
-
-
+```
 YOLOvComparison/
 │
 ├── yolov10n.pt
@@ -47,10 +47,9 @@ YOLOvComparison/
 │   └── model_comparison_frames.png
 ├── notebook.ipynb           # Main Jupyter Notebook
 └── README.md
+```
 
-
-
-▶️ How It Works
+## ▶️ How It Works
 Load YOLO Models: Load pre-trained YOLOv10n, YOLOv11n, and YOLOv12n models using Ultralytics.
 
 Run Object Detection & Tracking: Detect vehicles in every frame of the video and annotate with detection boxes and FPS.
@@ -64,9 +63,8 @@ Bar charts comparing average inference time and FPS.
 Example frames from each model’s output.
 
 
-📊 Sample Output
+## 📊 Sample Output
 🔹 Inference Time vs FPS
 
 🔹 Tracked Frames
 
-```
